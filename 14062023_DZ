@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+  </head>
+  <body>
+    <h1>Резюме</h1>
+    <h2>Садовская Оксана Игоревна</h2>
+    <img
+      src="https://lifehacker.org.ua/wp-content/uploads/6c4a39fe8a910f3a6602229f89cd0647.jpg"
+      alt="фото"
+    />
+
+    <h2>Профессиональные навыки:</h2>
+
+    <ul>
+      <li>Планирование и реализация проекта.</li>
+      <li>Сопровождение, доработка программных систем.</li>
+      <li>
+        Учет сбора вагонов на заводе (разработка загрузки файлов XML в базу
+        данных)
+      </li>
+      <li>Контроль качества продукции.</li>
+    </ul>
+
+    <h2>Образование</h2>
+
+    <p>Днепропетровский национальный университет</p>
+    <p>На данный момент учусь в школе tel-ran</p>
+    <a href="https://tel-ran.de/">IT ШКОЛА tel-ran</a>
+    <p>Прохожу короткий кус по трем направлениям</p>
+    <ol>
+      <li>QA</li>
+      <li>FE</li>
+      <li>BE</li>
+    </ol>
+    <!-- <P>
+
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor neque, vel explicabo quis voluptas quisquam perferendis similique ea pariatur saepe repellat voluptatum magnam eveniet et in esse commodi optio! Obcaecati!
+
+</P> -->
+  </body>
+</html>
