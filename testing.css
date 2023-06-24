@@ -1,0 +1,31 @@
+
+    h1 {text-transform:uppercase;} /*верхний регистр*/
+      ul {
+        color: rgb(77, 228, 39); /* цвет букв */
+        letter-spacing: 10px; /* интервал между символами */
+        text-decoration: line-through; /*зачеркивание*/
+      }
+      ol {text-decoration: underline;} /* подчеркивание */
+      h1 {
+        background: blue; /* цвет заднего фона */
+        color: aliceblue;
+        text-align: center; /* расположение по центру */
+        
+             } 
+
+      a {
+        color: brown; /* цвет букв */
+        font-weight: 100; /*жирность шрифта*/
+        border-left: 3px solid green;/*рамка снизу*/
+        
+      } 
+      p {
+        line-height: 1; /* интервал строк */
+        letter-spacing: 1px;
+        font-size: 20px; /*размер шрифта*/
+        font-style: italic; /*курсив*/
+        border: 4px solid darkblue;
+      }
+      img {border-radius: 25%;
+    border: 4px solid yellow;} /*закругление изображения*/
+    

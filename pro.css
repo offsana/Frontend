@@ -1,0 +1,19 @@
+.ramka {
+    width: 20em;
+    background-color: rgb(253, 253, 253);
+    padding: 20px ;
+text-align: center;
+    /* box-shadow: 8px 8px 5px #444; */
+    border-radius: 20px 20px 0px 0px;
+}
+h1 {color:  rgb(21, 33, 81);}
+h3 {color: rgb(126, 108, 144);}
+.knopka {
+background-color: rgb(182,216,246);
+padding: 1px; 
+/* width: 15em; */
+border-radius: 40px;
+
+}
+a  { text-decoration:none;}
+body {background-color: rgb(241, 241, 241)};
