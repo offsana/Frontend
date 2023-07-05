@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Example</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      html,
+      body {
+        height: 100%;
+      } /*для возможности размещения элементов по всей высоте*/
+
+      .container { /*превращает div conteiner в flex conteiner*/
+        display: flex;
+        height: 100%;
+        justify-content: center; /*3 бокса распределяются равномерно по горизонтали отсчет от центра (горизонтальная ось*/
+        align-items: center; /*распределение по центру(вертикальная ось)*/
+        gap: 10px;
+        flex-direction: column;
+      }
+
+      .item {
+        width: 400px;
+        aspect-ratio: 1;
+        /* height: 300px; */
+        background: gold;
+        font-size: 60px;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+    </div>
+  </body>
+</html>
