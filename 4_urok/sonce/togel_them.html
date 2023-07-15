@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>togle theme exemple</title>
+    <style>
+        body {transition: .5s;}
+      .is_dark {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>gghhfgfjgfhg</h1>
+    <div>
+      <button onclick="toggle_theme()">Сменить цвет</button>
+    </div>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur
+      ullam excepturi dolore autem, ad magnam velit assumenda iusto labore ut
+      quod officiis alias. Velit sit distinctio sunt facere placeat? Nostrum.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis at ad,
+      temporibus minus reprehenderit consequuntur fugit, a aut sequi maiores
+      praesentium fuga omnis voluptatum odio odit, ipsam soluta molestiae magni!
+    </p>
+    <script>
+      function toggle_theme() {
+        document.body.classList.toggle("is_dark");
+      }
+    </script>
+  </body>
+</html>
