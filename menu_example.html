@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Example</title>
+    <style>
+      .row {
+        display: flex;
+        /* background: green; */
+        justify-content: space-between;
+        align-items: center;
+      }
+      aside {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: gold;
+        height: 100%;
+        width: 250px;
+        display: none;
+      }
+      .is-open {display: block;}
+    </style>
+  </head>
+  <body>
+    <aside></aside>
+    <div class="row">
+      <h1>About company</h1>
+      <button onclick="toggle_menu()">menu</button>
+    </div>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias culpa sit
+      sapiente delectus sunt vero est dicta maxime illum nam! Temporibus
+      praesentium quae magni dolor? Repellat natus dicta sit ea! Totam beatae
+      incidunt, deleniti consequatur id praesentium dolores inventore quidem
+      magni vel nulla, sunt repellat hic eos temporibus numquam aperiam, in
+      repudiandae. Excepturi distinctio sequi eligendi error placeat id, dolorem
+      quia cumque repellendus, nisi nobis fugit quae doloribus debitis
+      repudiandae officiis! Ex magnam nisi hic expedita itaque at ipsum facilis
+      iure tenetur, sunt blanditiis vel consectetur fuga quia, quas
+      reprehenderit? Unde natus veniam quae, dolor amet magnam hic suscipit
+      velit quas omnis dignissimos fuga debitis facere aut corrupti eveniet. Vel
+      maxime deserunt perferendis nostrum nam aut ad sed iure quaerat. Fugit
+      vitae dolorem quaerat? Odio in repellendus vitae mollitia quidem. Veniam,
+      omnis ipsum, deleniti quam cupiditate sequi doloribus debitis esse illum
+      praesentium quo repellendus consequuntur voluptatibus itaque voluptas
+      suscipit, aut neque id. Sunt praesentium iusto dolorem quam quibusdam
+      dicta optio quasi! Ullam doloribus aliquam rem est fuga. Quas excepturi,
+      quod eius reprehenderit harum itaque quos. Tempore cupiditate commodi
+      molestias voluptatum inventore ipsum eveniet necessitatibus repellat
+      doloribus vel fugit labore doloremque nesciunt at aut, repudiandae sed
+      provident. Eius non culpa commodi ea dolores animi cumque fuga ipsam natus
+      sequi amet omnis dolor, eos doloribus sit sint hic? Rem, distinctio dolore
+      facere placeat qui atque corporis. Dicta facere repudiandae, aliquid
+      molestias temporibus nihil nostrum voluptas blanditiis eius sit minima rem
+      dolorem similique consectetur omnis aut mollitia rerum esse quas quasi
+      exercitationem eveniet quibusdam dignissimos! Quibusdam ut neque error
+      dolorem commodi quod minus a tenetur porro id eaque explicabo repudiandae
+      voluptatem, officia dolore? Distinctio excepturi quibusdam fugit animi
+      earum, neque itaque sunt quis explicabo, rem consequuntur non officia.
+      Explicabo doloribus ex officiis amet qui sequi, voluptates facere error
+      accusamus aperiam quos natus, suscipit fugiat? Dolorum, delectus
+      voluptatem necessitatibus fugit quam est optio eum quod blanditiis
+      cupiditate, error molestias earum eius nisi cumque amet itaque?
+      Accusantium consectetur tempora eveniet quibusdam atque quisquam? Pariatur
+      dicta accusamus animi minima omnis beatae quaerat voluptatum, harum
+      adipisci commodi, quo, aut maxime esse mollitia. Fuga aperiam commodi
+      facere voluptatem quidem ex ab provident ullam quibusdam cumque
+      exercitationem, quis facilis totam consectetur saepe? Consequatur ex
+      inventore exercitationem eos necessitatibus fugit accusantium aliquid
+      illum iste consectetur perferendis ducimus eaque pariatur aperiam
+      molestias error itaque laborum cumque reprehenderit, possimus accusamus
+      reiciendis voluptate. Modi nihil accusamus, saepe alias placeat soluta
+      assumenda eaque? Sed in non nisi deserunt et similique omnis tempore
+      aliquam tempora consectetur, sequi odio provident inventore dolorum
+      doloribus sit. Tenetur odit fugiat dolorem, explicabo similique soluta
+      eligendi illum accusantium natus quis debitis vitae nemo est atque
+      reprehenderit fuga sit accusamus quae, a optio. Vitae, tempore nemo. A
+      quasi, alias reiciendis est iste nesciunt accusantium tempora quaerat
+      nulla exercitationem iusto, aut praesentium fugiat ipsa pariatur numquam
+      provident quidem officiis et eius optio quos hic! Voluptates hic
+      doloremque eaque ipsa quos, fugit asperiores, quaerat iure sit aliquid vel
+      maxime voluptatum, nam suscipit. Blanditiis cum perspiciatis debitis fugit
+      obcaecati ea cumque possimus, quos facere?
+    </p>
+    <script>
+        function toggle_menu(){
+            const menu = document.querySelector('aside');
+            menu.classList.toggle('is-open');
+        }
+    </script>
+  </body>
+</html>
