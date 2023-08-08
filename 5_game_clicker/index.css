@@ -1,0 +1,44 @@
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;}
+body {
+    background: rgb(42, 94, 236);
+    
+}
+#area {background: gold;
+width: 400px;
+aspect-ratio: 1;
+margin-top: 100px;
+overflow: hidden;}/*ховаем #object за родительским элементом*/
+
+/* #object {background: rgb(236, 10, 10) ;
+width: 60px;
+aspect-ratio: 1;
+transform: translateY(-100%);
+
+} */
+#object {background: #671bf5;
+    width: 60px;
+    aspect-ratio: 1;
+    transform: translateY(-100%);
+
+    }
+   
+    
+#object.start {
+animation-name: movement; /* имя анимации*/;
+animation-duration: 4.5s;/*время анимации*/
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+
+/*время итерации*/
+}
+
+
+/* @keyframes анимация движения обьекта (определнеие)*/
+@keyframes movement { 
+    to {
+        transform: translateY(400px);
+    }
+}
+
